@@ -8,7 +8,7 @@ class NavBar extends Component {
     render() {
       return (
         <div className="navbar">
-            <a href="">Resume</a>
+            <a href="#">Resume</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
