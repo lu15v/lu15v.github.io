@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
 import NameEffect from '../nameEffect/NameEffect';
+import TypeWriterEffect from '../typeWriterEffect/TypeWriterEffect';
 class Header extends Component {
     render() {
       return (
@@ -8,9 +9,10 @@ class Header extends Component {
               
               <NameEffect></NameEffect>
               <div>
-                <p>{this.props.major}</p>      
+              <TypeWriterEffect>Software Engineer</TypeWriterEffect>  
                 <p>{this.props.desc}</p>    
               </div>
+              
           </div>
            
 
