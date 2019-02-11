@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import './App.css';
 import  Header from './header/Header';
 import NavBar from './navBar/NavBar';
-
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+library.add(faFacebookF,faGithub,faLinkedin,faEnvelope); 
 class App extends Component {
   render() {
     return (
@@ -11,7 +16,7 @@ class App extends Component {
         <NavBar nLink="4"></NavBar>
       </div>
     );
-  }
+  } 
 }
 
 export default App;

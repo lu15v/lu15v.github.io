@@ -1,0 +1,13 @@
+.social {
+    /*padding: 2em 0;*/
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.social a{
+    color:#808080;
+    
+}
+.social a:hover{
+    color: #ffffff;
+}
