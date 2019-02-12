@@ -12,12 +12,8 @@ class Header extends Component {
               <TypeWriterEffect>Software Engineer</TypeWriterEffect>  
                 <p>{this.props.desc}</p>    
                 <Social></Social>
-              </div>
-              
+              </div>            
           </div>
-           
-
-        
         );
     }
   }
