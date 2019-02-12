@@ -6,11 +6,10 @@ import Social from '../social/Social';
 class Header extends Component {
     render() {
       return (
-          <div className="page-header header">
-              
-              <NameEffect></NameEffect>
+          <div className="page-header header">       
               <div>
-              <TypeWriterEffect>Software Engineer</TypeWriterEffect>  
+              <NameEffect></NameEffect>
+              <TypeWriterEffect>Software Engineers</TypeWriterEffect>  
                 <p>{this.props.desc}</p>    
                 <Social></Social>
               </div>
