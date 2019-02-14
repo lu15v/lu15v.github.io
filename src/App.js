@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header name="Luis Ballinas" major="Software Engineer" desc="some brief desc"></Header>
+        <Header name="Luis Ballinas" major="Software Engineer" desc="Web developer and music lover located in "></Header>
         <NavBar nLink="4"></NavBar>
       </div>
     );
