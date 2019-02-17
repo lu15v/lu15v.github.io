@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header name="Luis Ballinas" major="Software Engineer" desc="Web developer and music lover located in "></Header>
+        <Header name="Luis Ballinas" major="Software Engineer" desc="Web developer and music lover located in Guadalajara"></Header>
         <NavBar nLink="4"></NavBar>
         <Content></Content>
       </div>
