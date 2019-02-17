@@ -9,9 +9,7 @@ class NavBar extends Component {
       return (
         <div className="navbar">
             <a href="https://github.com/lu15v/portfolio/blob/master/src/assets/pdf/Resume.pdf">Resume</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
+          
        </div>
         );
     }

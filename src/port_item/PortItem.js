@@ -3,15 +3,15 @@ import './portItem.css';
 
 
 
-
 class PortItem extends Component {
 
     render() {
+
       return (
         <div className="item">
-            <img src={this.props.img}  className="image"/>
+            <img src={require(`../assets/images/${this.props.img}`)}  className="image" />
             <div className="opacity">
-                <div className="info">John Doe</div>
+                <div className="info"></div>
             </div>
             <div className="tech">
                 <p>{this.props.children}</p>

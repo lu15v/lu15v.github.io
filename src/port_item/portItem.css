@@ -44,10 +44,10 @@
     text-align: center;
   }
   .info {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
+  
+    color: black;
+    font: bold;
+    font-size: 20px;
   }
 
   .item:hover .image {
