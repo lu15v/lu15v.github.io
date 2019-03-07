@@ -8,10 +8,13 @@
     text-decoration: none;
     text-align: center;
     font-weight: 900;
+    opacity: 0.6;
+    transition: 0.3s;
   }
   
   .navbar a:hover {
     color:  #00d8ff;
     text-decoration: none;
+    opacity: 1;
   }
   
