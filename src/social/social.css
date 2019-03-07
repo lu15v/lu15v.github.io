@@ -6,8 +6,10 @@
 }
 .social a{
     color:#808080;
-    
+    opacity: 0.6;
+    transition: 0.3s;
 }
 .social a:hover{
     color: #ffffff;
+    opacity: 1;
 }
