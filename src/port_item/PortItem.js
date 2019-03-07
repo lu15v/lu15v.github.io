@@ -1,28 +1,20 @@
-import React, { Component }  from 'react';
+import React from 'react'
 import './portItem.css';
 
 
 
-class PortItem extends Component {
-
-    render() {
-
-      return (
+const PortItem = (props) =>{
+    return(
         <div className="item">
-            <img src={require(`../assets/images/${this.props.img}`)}  className="image" />
+            <img src={require(`../assets/images/${props.img}`)} alt="" className="image" />
             <div className="opacity">
                 <div className="info"></div>
             </div>
             <div className="tech">
-                <p>{this.props.children}</p>
+                <p>{props.children}</p>
             </div>
-            
         </div>
-        );
-    }
+    )
+}
 
-  }
-  
-
-
-  export default PortItem;
+export default PortItem;
