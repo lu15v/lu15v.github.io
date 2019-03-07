@@ -9,7 +9,7 @@ class Header extends Component {
           <div className="page-header header">       
               <div>
               <NameEffect></NameEffect>
-              <TypeWriterEffect>Software Engineer</TypeWriterEffect>  
+              <TypeWriterEffect>{this.props.major}</TypeWriterEffect>  
                 <p>{this.props.desc}</p>    
                 <Social></Social>
               </div>            
