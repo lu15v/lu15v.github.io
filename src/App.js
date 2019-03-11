@@ -5,11 +5,11 @@ import  Header from './components/header/Header';
 import Content from './components/content/Content';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebook, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope,faChevronCircleLeft } from '@fortawesome/free-solid-svg-icons';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Detail from './components/detail/Detail';
 
-library.add(faFacebook,faGithub,faLinkedin,faEnvelope); 
+library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft); 
 class App extends Component {
   render() {
     return (
