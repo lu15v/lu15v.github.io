@@ -18,7 +18,7 @@ class NameEffect extends Component {
 
     render() {
       return (
-        <ul className={this.state.hover ? "text spaced" : "text hidden" } onMouseOut={() => this.mouseOut()} onMouseOver={() => this.mouseOver()}>
+        <ul className={this.state.hover ? "text color" : "text hidden" } onMouseOut={() => this.mouseOut()} onMouseOver={() => this.mouseOver()}>
             <li className="spaced">L</li>
             <li className="ghost">u</li>
             <li className="ghost">i</li>
