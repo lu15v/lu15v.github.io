@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export default function Detail() {
   return (
     <div className="body">
-        <Link to="/"><p className="back"><FontAwesomeIcon icon={['fas', 'chevron-circle-left']} /> Back</p></Link>
+        <Link to="/project"><p className="back"><FontAwesomeIcon icon={['fas', 'chevron-circle-left']} /> Back</p></Link>
         <main>
           <div className="head">
               <h2>Project name</h2>
