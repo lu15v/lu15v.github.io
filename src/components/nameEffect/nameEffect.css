@@ -45,6 +45,9 @@
 .text li.spaced {
   padding-left: 0.5em;
 }
+.text li.spaced{
+  color: #91101f;
+}
 
 .text.hidden li.ghost {
   opacity: 0;
