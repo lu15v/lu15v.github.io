@@ -7,7 +7,7 @@
   "static/js/1.17d53735.chunk.js.map": "/static/js/1.17d53735.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/4Clojure.jpg": "/static/media/4Clojure.5d4b9e5c.jpg",
   "static/media/blockBreaker.jpg": "/static/media/blockBreaker.ddc1eca1.jpg",
   "static/media/connect4.jpg": "/static/media/connect4.6c8fb6f0.jpg",
@@ -16,9 +16,9 @@
   "static/media/poker.jpg": "/static/media/poker.3d73a461.jpg",
   "static/media/restFB.jpg": "/static/media/restFB.17c7d76e.jpg",
   "static/media/wandW.png": "/static/media/wandW.1ffaee80.png",
-  "static/css/1.5d751686.chunk.css.map": "/static/css/1.5d751686.chunk.css.map",
   "static/css/main.1e06351e.chunk.css.map": "/static/css/main.1e06351e.chunk.css.map",
+  "static/css/1.5d751686.chunk.css.map": "/static/css/1.5d751686.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.201c083c4962e68fe938d752c4e2ca64.js": "/precache-manifest.201c083c4962e68fe938d752c4e2ca64.js",
+  "precache-manifest.07eb59ad1c2f8be5bb482d49eb2cabd8.js": "/precache-manifest.07eb59ad1c2f8be5bb482d49eb2cabd8.js",
   "service-worker.js": "/service-worker.js"
 }
