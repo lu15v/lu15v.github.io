@@ -5,12 +5,14 @@ import  Header from './components/header/Header';
 import Content from './components/content/Content';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebook, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope,faChevronCircleLeft, faHeart, faGuitar } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope,faChevronCircleLeft, faHeart, faGuitar, faMicrochip } from '@fortawesome/free-solid-svg-icons';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Detail from './components/detail/Detail';
 import NavLink from './components/navLink/NavLink';
 import Footer from './components/footer/Footer';
 library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft, faHeart, faGuitar); 
+library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft, faHeart, faGuitar, faMicrochip); 
+
 class App extends Component {
   render() {
     return (
