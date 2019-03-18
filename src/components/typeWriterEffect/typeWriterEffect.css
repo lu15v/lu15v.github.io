@@ -20,7 +20,7 @@
       width: 0;
     }
     to {
-      width: 15ch;
+      width: 16ch;
     }
   }
   /* The typewriter cursor effect */
@@ -28,3 +28,11 @@
       from, to { border-color: transparent }
       50% { border-color: white }
     }
+
+
+    @media (min-width: 300px) and (max-width: 410px)  { 
+      .animated-text {
+        width: 15ch;
+      }
+  
+  }
