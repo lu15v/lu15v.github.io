@@ -1,7 +1,6 @@
 import React, { Component }  from 'react';
 import './nameEffect.css';
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 class NameEffect extends Component {
@@ -23,6 +22,7 @@ class NameEffect extends Component {
             <li className="ghost">u</li>
             <li className="ghost">i</li>
             <li className="ghost">s</li>
+            <li className="ghidden"><FontAwesomeIcon  icon={['fas', 'microchip']} /></li>
             <li className="spaced">B</li>
             <li className="ghost">a</li>
             <li className="ghost">l</li>

@@ -46,10 +46,21 @@
   padding-left: 0.5em;
 }
 .text.color li.spaced{
-  color: #91101f;
+  color: 	#D4AF37;
 }
 
 .text.hidden li.ghost {
   opacity: 0;
   max-width: 0;
 }
+.text.hidden li.ghidden {
+  opacity: 0;
+  max-width: 0;
+  padding-left: 0;
+}
+.text li.ghidden{
+  padding-left: 0.5em;
+  color: 	#D4AF37;
+}
+
+
