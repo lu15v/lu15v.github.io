@@ -10,7 +10,6 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Detail from './components/detail/Detail';
 import NavLink from './components/navLink/NavLink';
 import Footer from './components/footer/Footer';
-library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft, faHeart, faGuitar); 
 library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft, faHeart, faGuitar, faMicrochip); 
 
 class App extends Component {
@@ -19,7 +18,7 @@ class App extends Component {
       <Router>
         <div>
             <div className="App">
-              <Header name="Luis Ballinas" major="Software Engineer" desc="Web developer and music lover located in Guadalajara"></Header>
+              <Header name="Luis Ballinas" major="Software Engineer" desc="Web developer and music lover located in Guadalajara " img="mex-icon-32.png" ></Header>
               <div className="navbar">
                 <a className="link" href="https://github.com/lu15v/lu15v.github.io/blob/dev/src/assets/pdf/Resume.pdf">Resume</a>
                 <NavLink to="/project">Portfolio</NavLink>
