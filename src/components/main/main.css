@@ -1,0 +1,23 @@
+div.cont{
+    background-color: white;
+}
+.cont div.header{
+    background-color: white;
+}
+
+
+.header h3{
+   /* background-color: #f9f9f9;*/
+    color:black !important;
+    text-align: left;
+    /*border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 0.5em;*/
+}
+.cont main{
+    text-align: justify;
+    border: none;
+}
+.header hr{
+    height: 1px;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+}

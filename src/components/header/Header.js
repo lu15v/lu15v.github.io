@@ -3,7 +3,7 @@ import './header.css';
 import NameEffect from '../nameEffect/NameEffect';
 import TypeWriterEffect from '../typeWriterEffect/TypeWriterEffect';
 import Social from '../social/Social';
-const mex = '../../assets/icons/mex-icon-16.png';
+
 class Header extends Component {
     render() {
       return (
