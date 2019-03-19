@@ -8,6 +8,8 @@
   color: #00d8ff !important;
   opacity: 1;
   pointer-events: none;
+  border-top: 1px solid #00d8ff;
+  border-bottom: 1px solid #00d8ff;
 }
 
 
@@ -15,6 +17,8 @@
     color: white;
     opacity: 0.6;
     transition: 0.3s;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
   }
   
 .inactive:hover {
