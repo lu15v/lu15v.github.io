@@ -1,6 +1,12 @@
 .navbar {
     display: flex;
-    background-color: #00161A !important;
+    background-color: #00161A;
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+
   }
   
   .navbar a.link{
