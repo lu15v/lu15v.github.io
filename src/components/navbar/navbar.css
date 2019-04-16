@@ -16,8 +16,8 @@
     font-weight: 900;
     opacity: 0.6;
     transition: 0.3s;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+    /*border-bottom: 1px solid;
+    border-top: 1px solid;*/
   }
   
   .navbar a.link:hover {
