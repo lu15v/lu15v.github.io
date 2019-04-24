@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.0e54fca1.chunk.css",
-  "main.js": "/static/js/main.49a840a9.chunk.js",
-  "main.js.map": "/static/js/main.49a840a9.chunk.js.map",
+  "main.css": "/static/css/main.5f61947e.chunk.css",
+  "main.js": "/static/js/main.ab20c87a.chunk.js",
+  "main.js.map": "/static/js/main.ab20c87a.chunk.js.map",
   "static/css/1.ad4e378d.chunk.css": "/static/css/1.ad4e378d.chunk.css",
   "static/js/1.bfdbd620.chunk.js": "/static/js/1.bfdbd620.chunk.js",
   "static/js/1.bfdbd620.chunk.js.map": "/static/js/1.bfdbd620.chunk.js.map",
@@ -16,9 +16,9 @@
   "static/media/poker.jpg": "/static/media/poker.3d73a461.jpg",
   "static/media/restFB.jpg": "/static/media/restFB.17c7d76e.jpg",
   "static/media/wandW.png": "/static/media/wandW.1ffaee80.png",
-  "static/css/main.0e54fca1.chunk.css.map": "/static/css/main.0e54fca1.chunk.css.map",
+  "static/css/main.5f61947e.chunk.css.map": "/static/css/main.5f61947e.chunk.css.map",
   "static/css/1.ad4e378d.chunk.css.map": "/static/css/1.ad4e378d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9db3eae6cc38b17be7dce1269e71beec.js": "/precache-manifest.9db3eae6cc38b17be7dce1269e71beec.js",
+  "precache-manifest.dbc490ffe53bd60965b262663dd11d7b.js": "/precache-manifest.dbc490ffe53bd60965b262663dd11d7b.js",
   "service-worker.js": "/service-worker.js"
 }
