@@ -63,4 +63,23 @@
   color: 	#D4AF37;
 }
 
+.text.hidden img.spaced{
+  background-color: 	#fff;
+}
 
+.text.color img.spaced{
+  background-color: 	#7FFF00;
+}
+
+.text img.size{
+  height: 50px;
+  width: 50px;
+}
+
+.text.hidden li.image-spacing{
+  padding-right: 0.3em;
+}
+.text.color li.b-spacing{
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}

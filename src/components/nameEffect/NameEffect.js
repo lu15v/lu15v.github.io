@@ -1,6 +1,7 @@
 import React, { Component }  from 'react';
 import './nameEffect.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import L from '../../assets/images/L.png';
+import B from '../../assets/images/B.png';
 
 
 class NameEffect extends Component {
@@ -18,12 +19,11 @@ class NameEffect extends Component {
     render() {
       return (
         <ul className={this.state.hover ? "text color" : "text hidden" } onMouseOut={() => this.mouseOut()} onMouseOver={() => this.mouseOver()}>
-            <li className="spaced">L</li>
+            <li className="image-spacing"><img className="spaced size" src={L} alt="L" /></li>
             <li className="ghost">u</li>
             <li className="ghost">i</li>
             <li className="ghost">s</li>
-            <li className="ghidden"><FontAwesomeIcon  icon={['fas', 'microchip']} /></li>
-            <li className="spaced">B</li>
+            <li className="b-spacing"><img className="spaced size" src={B} alt="B" /></li>
             <li className="ghost">a</li>
             <li className="ghost">l</li>
             <li className="ghost">l</li>
