@@ -64,7 +64,7 @@
 }
 
 .text.hidden img.spaced{
-  background-color: 	#fff;
+  background-color:  #00d8ff;
 }
 
 .text.color img.spaced{
@@ -82,4 +82,17 @@
 .text.color li.b-spacing{
   padding-left: 0.2em;
   padding-right: 0.2em;
+}
+
+@media (min-width: 200px) and (max-width: 500px)  { 
+  .text.color li.b-spacing{
+    padding-right: 0.3em;
+  }
+  .text.color li.ghost {
+    opacity: 0;
+    max-width: 0;
+  }
+  .text.color li.spaced {
+    padding-left: 0;
+  }
 }

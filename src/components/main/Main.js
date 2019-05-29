@@ -11,14 +11,9 @@ export default class Main extends Component {
         <hr/>
         </div>
         <main>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nisi, iaculis quis sollicitudin elementum, 
-        finibus id turpis. Curabitur nunc ex, molestie nec interdum eget, scelerisque nec sapien. Mauris non blandit lectus. 
-        Curabitur auctor ex vitae mauris consequat, nec aliquet magna convallis. Etiam lacinia eget odio sit amet molestie.
-         Suspendisse sed erat vehicula nunc tincidunt blandit sit amet nec risus. Integer massa arcu, rutrum sed ligula quis, 
-         molestie dapibus neque. Nulla pellentesque leo tellus, quis consectetur nulla hendrerit quis. Morbi tincidunt ultricies velit.
-          Donec ut felis non nibh dictum molestie. Fusce rutrum odio ac laoreet efficitur. Pellentesque habitant morbi tristique senectus 
-          et netus et malesuada fames ac turpis egestas. Vivamus pellentesque quam nec scelerisque vehicula. Maecenas pretium magna mi, 
-          rhoncus interdum magna vestibulum vel. Donec eget egestas lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        I'm a software developer with 2+ years of experience, I have worked for international consultancy companies and also international clients. 
+        I love to: contribute, learn, teach and in general be very engaged in every project I'm in. 
+        In my free time, I enjoy learning topics related to web development, playing the ukelele, and developing projects as a freelance and reading some sci-fi books. I want to be part of a team where I can provide my knowledge in projects with high relevance and impact.
         </main>
       </div>
     )
