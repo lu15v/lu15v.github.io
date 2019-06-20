@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "0e201fc9d17250073d40",
-    "url": "/static/css/main.61a8e29c.chunk.css"
+    "revision": "b7139ffc0aaf24588c46",
+    "url": "/static/css/main.21749b82.chunk.css"
   },
   {
     "revision": "1ffaee806261364a45ce840bb5111265",
     "url": "/static/media/wandW.1ffaee80.png"
   },
   {
-    "revision": "5b46db03ace3ff6194f5",
-    "url": "/static/js/1.5b46db03.chunk.js"
+    "revision": "6c7072a4b8afaf711660",
+    "url": "/static/js/1.6c7072a4.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,10 +28,6 @@ self.__precacheManifest = [
     "url": "/static/media/B.df2eb12d.png"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
@@ -40,8 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "0e201fc9d17250073d40",
-    "url": "/static/js/main.0e201fc9.chunk.js"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "b7139ffc0aaf24588c46",
+    "url": "/static/js/main.b7139ffc.chunk.js"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -76,11 +76,11 @@ self.__precacheManifest = [
     "url": "/static/media/restFB.17c7d76e.jpg"
   },
   {
-    "revision": "5b46db03ace3ff6194f5",
-    "url": "/static/css/1.5478e750.chunk.css"
+    "revision": "6c7072a4b8afaf711660",
+    "url": "/static/css/1.fa0f400d.chunk.css"
   },
   {
-    "revision": "57a3d3d0ac30121a7cb64e656eb8d5d1",
+    "revision": "1d388f2aadff7a3bcd964f617846234c",
     "url": "/index.html"
   }
 ];
