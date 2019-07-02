@@ -13,7 +13,7 @@ import {Link} from 'react-router-dom';
             <Link to="/project/restfb"><PortItem img="restFB.jpg">Facebook WS</PortItem></Link>
             <Link to="/project/wandw"><PortItem img="wandW.png">Text Adventure Game</PortItem></Link>
             <Link to="/project/fourClojure"><PortItem img="4Clojure.jpg">Clojure Problems</PortItem></Link>
-            <Link to="/project/poker"><PortItem img="poker.jpg">Poker </PortItem></Link>
+            {/*<Link to="/project/poker"><PortItem img="poker.jpg">Poker </PortItem></Link>*/}
             <Link to="/project/designPatt"><PortItem img="designPatt.jpg">Design Patterns </PortItem></Link>
         </div>
     )
