@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Do+Hyeon|Scada&display=swap');
+
 .back{
     margin-bottom: 1em;
     color: #FC9943;
@@ -20,7 +22,7 @@ div .body{
 }
 
 main {
-    width: 80%;
+    width: 50%;
     min-width: 300px;
     position: relative;
     background-color: #fff;
@@ -60,12 +62,31 @@ main {
 }
 
 .body div.information div.proj-tech{
+    font-family: 'Scada', sans-serif;
     margin-right: 2em;
-    
+    width: 50%;
+}
+.body div.information div.proj-tech h5{
+    border-bottom: 1px solid #BDBDBD;
 }
 
-@media (min-width: 100px) and (max-width: 500px)  { 
+@media (min-width: 100px) and (max-width: 600px)  { 
     .body div.information div.proj-image img{
-        max-height: 90px;
+        max-height: 70px;
     }
 }
+
+.devicon-git-plain {
+    width: 2em;
+    height: 2em;
+  }
+
+
+  #project-content div.head div.proj-name{
+    width: 90%;
+    text-align: left;
+  }
+
+  #project-content div.head div.proj-repo{
+    cursor: pointer;
+  }
