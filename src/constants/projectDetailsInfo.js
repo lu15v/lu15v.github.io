@@ -1,4 +1,11 @@
 export const projectDetailInfo = {
+    burger:{
+        name: 'Burger Price Estimator',
+        image: 'burgerSeller.png',
+        description: 'Burger Price Estimator, developed in React. The application renders/removes every single component when the user adds/deletes ingredientes and estimates the total price of the burger',
+        technologies: '',
+        github: 'https://github.com/lu15v/Burger'
+    },
     marsExp :{
         name: 'Mars Explorer',
         image: "marsExplorer.jpg",
