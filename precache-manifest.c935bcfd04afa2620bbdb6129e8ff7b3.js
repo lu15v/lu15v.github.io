@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "bb8619b75927f8c0f0aa",
-    "url": "/static/css/main.f8e312ba.chunk.css"
+    "revision": "3e8d04c22ba5d55f2a2a",
+    "url": "/static/css/main.db15f955.chunk.css"
   },
   {
     "revision": "1ffaee806261364a45ce840bb5111265",
     "url": "/static/media/wandW.1ffaee80.png"
   },
   {
-    "revision": "f1c217d66840766df23f",
-    "url": "/static/js/1.f1c217d6.chunk.js"
+    "revision": "93ac0e4c1304ac7d6be2",
+    "url": "/static/js/1.93ac0e4c.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,24 +28,24 @@ self.__precacheManifest = [
     "url": "/static/media/B.df2eb12d.png"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "bb8619b75927f8c0f0aa",
-    "url": "/static/js/main.bb8619b7.chunk.js"
-  },
-  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "3e8d04c22ba5d55f2a2a",
+    "url": "/static/js/main.3e8d04c2.chunk.js"
   },
   {
     "revision": "5d4b9e5c7b6cf13000b508264a2efce9",
@@ -54,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "ddc1eca104b52ac64b94c8448815030f",
     "url": "/static/media/blockBreaker.ddc1eca1.jpg"
+  },
+  {
+    "revision": "9b9a097ca35911c41d8c8bbf9646990b",
+    "url": "/static/media/burgerSeller.9b9a097c.png"
   },
   {
     "revision": "6c8fb6f08339d809e4c6f550608e43e4",
@@ -76,11 +80,11 @@ self.__precacheManifest = [
     "url": "/static/media/restFB.17c7d76e.jpg"
   },
   {
-    "revision": "f1c217d66840766df23f",
-    "url": "/static/css/1.249998d7.chunk.css"
+    "revision": "93ac0e4c1304ac7d6be2",
+    "url": "/static/css/1.7ac6fe0d.chunk.css"
   },
   {
-    "revision": "04da53b5caa4d9bbb0bbf17b881477d5",
+    "revision": "3f807afff6aa194c7aa335239989e46f",
     "url": "/index.html"
   }
 ];
