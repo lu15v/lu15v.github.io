@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "e573e22d1622f9ca70c3",
-    "url": "/static/css/main.beea139b.chunk.css"
+    "revision": "a60eb4c0f3a7455be1b5",
+    "url": "/static/css/main.41672f8e.chunk.css"
   },
   {
     "revision": "1ffaee806261364a45ce840bb5111265",
     "url": "/static/media/wandW.1ffaee80.png"
   },
   {
-    "revision": "58a190990f88a5e9bf0b",
-    "url": "/static/js/1.58a19099.chunk.js"
+    "revision": "51b9a133c76cba5de629",
+    "url": "/static/js/1.51b9a133.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,24 +28,24 @@ self.__precacheManifest = [
     "url": "/static/media/B.df2eb12d.png"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "e573e22d1622f9ca70c3",
-    "url": "/static/js/main.e573e22d.chunk.js"
+    "revision": "a60eb4c0f3a7455be1b5",
+    "url": "/static/js/main.a60eb4c0.chunk.js"
   },
   {
     "revision": "5d4b9e5c7b6cf13000b508264a2efce9",
@@ -80,11 +80,11 @@ self.__precacheManifest = [
     "url": "/static/media/restFB.17c7d76e.jpg"
   },
   {
-    "revision": "58a190990f88a5e9bf0b",
+    "revision": "51b9a133c76cba5de629",
     "url": "/static/css/1.59a2f203.chunk.css"
   },
   {
-    "revision": "56304ad5fb84a144eed6e8d9ea2249e2",
+    "revision": "65ac90c4b8664b8ec1f6b6b425381bea",
     "url": "/index.html"
   }
 ];
