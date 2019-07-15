@@ -17,6 +17,11 @@
   text-overflow:ellipsis;
 }
 
+.text-mobile {
+ /*top: 7.3% !important;*/
+ top: 40px !important;
+}
+
 .text.hidden {
   border-bottom: 1px solid #fff;
 }
@@ -96,3 +101,8 @@
     padding-left: 0;
   }
 }
+/*@media (min-width: 200px) and (max-width: 600px)  { 
+  .text{
+    top: 10%;
+  }
+}*/

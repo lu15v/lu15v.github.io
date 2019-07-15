@@ -2,7 +2,7 @@ import React, { Component }  from 'react';
 import './nameEffect.css';
 import L from '../../assets/images/L.png';
 import B from '../../assets/images/B.png';
-
+import {isMobile} from "react-device-detect";
 
 class NameEffect extends Component {
     state = {
@@ -17,8 +17,10 @@ class NameEffect extends Component {
     }
 
     render() {
+        let cssDevice = isMobile ? "text text-mobile" : "text";
+
       return (
-        <ul className={this.state.hover ? "text color" : "text hidden" } onMouseOut={() => this.mouseOut()} onMouseOver={() => this.mouseOver()}>
+        <ul className={this.state.hover ? `${cssDevice} color` : `${cssDevice} hidden` } onMouseOut={() => this.mouseOut()} onMouseOver={() => this.mouseOver()}>
             <li className="image-spacing"><img className="spaced size" src={L} alt="L" /></li>
             <li className="ghost">u</li>
             <li className="ghost">i</li>
@@ -36,7 +38,5 @@ class NameEffect extends Component {
     }
 
   }
-  
-
-
+ 
   export default NameEffect;
