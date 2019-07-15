@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.9dca297f.chunk.css",
-  "main.js": "/static/js/main.b154f42f.chunk.js",
-  "main.js.map": "/static/js/main.b154f42f.chunk.js.map",
+  "main.css": "/static/css/main.57b14d29.chunk.css",
+  "main.js": "/static/js/main.b3306c62.chunk.js",
+  "main.js.map": "/static/js/main.b3306c62.chunk.js.map",
   "static/css/1.59a2f203.chunk.css": "/static/css/1.59a2f203.chunk.css",
   "static/js/1.51b9a133.chunk.js": "/static/js/1.51b9a133.chunk.js",
   "static/js/1.51b9a133.chunk.js.map": "/static/js/1.51b9a133.chunk.js.map",
@@ -9,7 +9,7 @@
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/restFB.jpg": "/static/media/restFB.17c7d76e.jpg",
   "static/media/L.png": "/static/media/L.ad1be8af.png",
-  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.912ec66d.svg",
+  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/4Clojure.jpg": "/static/media/4Clojure.5d4b9e5c.jpg",
   "static/media/blockBreaker.jpg": "/static/media/blockBreaker.ddc1eca1.jpg",
   "static/media/burgerSeller.png": "/static/media/burgerSeller.9b9a097c.png",
@@ -19,9 +19,9 @@
   "static/media/poker.jpg": "/static/media/poker.3d73a461.jpg",
   "static/media/B.png": "/static/media/B.df2eb12d.png",
   "static/media/wandW.png": "/static/media/wandW.1ffaee80.png",
-  "static/css/main.9dca297f.chunk.css.map": "/static/css/main.9dca297f.chunk.css.map",
+  "static/css/main.57b14d29.chunk.css.map": "/static/css/main.57b14d29.chunk.css.map",
   "static/css/1.59a2f203.chunk.css.map": "/static/css/1.59a2f203.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.ac9640d7b247b193c54f551fa18552ae.js": "/precache-manifest.ac9640d7b247b193c54f551fa18552ae.js",
+  "precache-manifest.4d2e79fe9e3088ecde7f8a07db7971ca.js": "/precache-manifest.4d2e79fe9e3088ecde7f8a07db7971ca.js",
   "service-worker.js": "/service-worker.js"
 }
