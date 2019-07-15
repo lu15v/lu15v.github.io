@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "8e6c5ac67a840c5db378",
-    "url": "/static/css/main.ff47052d.chunk.css"
+    "revision": "e573e22d1622f9ca70c3",
+    "url": "/static/css/main.beea139b.chunk.css"
   },
   {
     "revision": "1ffaee806261364a45ce840bb5111265",
     "url": "/static/media/wandW.1ffaee80.png"
   },
   {
-    "revision": "93ac0e4c1304ac7d6be2",
-    "url": "/static/js/1.93ac0e4c.chunk.js"
+    "revision": "58a190990f88a5e9bf0b",
+    "url": "/static/js/1.58a19099.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,24 +28,24 @@ self.__precacheManifest = [
     "url": "/static/media/B.df2eb12d.png"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
-  },
-  {
-    "revision": "8e6c5ac67a840c5db378",
-    "url": "/static/js/main.8e6c5ac6.chunk.js"
+    "revision": "e573e22d1622f9ca70c3",
+    "url": "/static/js/main.e573e22d.chunk.js"
   },
   {
     "revision": "5d4b9e5c7b6cf13000b508264a2efce9",
@@ -80,11 +80,11 @@ self.__precacheManifest = [
     "url": "/static/media/restFB.17c7d76e.jpg"
   },
   {
-    "revision": "93ac0e4c1304ac7d6be2",
-    "url": "/static/css/1.7ac6fe0d.chunk.css"
+    "revision": "58a190990f88a5e9bf0b",
+    "url": "/static/css/1.59a2f203.chunk.css"
   },
   {
-    "revision": "5c814d92d424240cd32bb7f8aa55812e",
+    "revision": "56304ad5fb84a144eed6e8d9ea2249e2",
     "url": "/index.html"
   }
 ];
