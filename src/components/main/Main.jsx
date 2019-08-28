@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './main.css';
 
-export default class Main extends Component {
+const main = () => {
 
-  render() {
     return (
       <div className="cont">
         <div className="header">
@@ -20,7 +19,7 @@ export default class Main extends Component {
         </main>
       </div>
     )
-  }
 }
 
 
+export default main;

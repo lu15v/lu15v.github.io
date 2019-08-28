@@ -1,19 +1,7 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import './typeWriterEffect.css';
 
 
-
-
-class TypeWriterEffect extends Component {
-
-    render() {
-      return (
-        <span className="animated-text">{this.props.children}</span>
-        );
-    }
-
-  }
+const  typeWriterEffect = (props) => <span className="animated-text">{props.children}</span>
   
-
-
-  export default TypeWriterEffect;
+export default typeWriterEffect;

@@ -1,10 +1,10 @@
-import React, { Component }  from 'react';
+import React, { PureComponent }  from 'react';
 import './nameEffect.css';
 import L from '../../assets/images/L.png';
 import B from '../../assets/images/B.png';
 import {isMobile} from "react-device-detect";
 
-class NameEffect extends Component {
+class NameEffect extends PureComponent {
     state = {
         hover: false
     };

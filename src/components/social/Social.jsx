@@ -2,7 +2,7 @@ import React from 'react'
 import  './social.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default function Social() {
+const social = () =>{
   return (
     <div className="social">
       <a id="linkedin"  href="https://mx.linkedin.com/in/luis-eduardo-ballinas-aguilar-a638a594"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
@@ -12,3 +12,5 @@ export default function Social() {
     </div>
   )
 }
+
+export default social;

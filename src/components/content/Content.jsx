@@ -4,7 +4,7 @@ import './content.css';
 import PortItem from '../port_item/PortItem';
 import {Link} from 'react-router-dom';
 
-  export default function Content() {
+ const content = () => {
     return (
         <div className="wrapper">
             <Link to="/project/burger"><PortItem img="burgerSeller.png" path="burger">Burger Price Estimator</PortItem></Link>
@@ -19,4 +19,6 @@ import {Link} from 'react-router-dom';
         </div>
     )
   }
+
+  export default content;
   
