@@ -11,9 +11,16 @@ import Detail from './components/detail/Detail';
 import Footer from './components/footer/Footer';
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
+import egg from './constants/egg';
+
 library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft, faHeart, faGuitar, faMicrochip); 
 
 class App extends Component {
+
+  componentDidMount(){
+    console.log(egg)
+  }
+
   render() {
     return (
       <Router>
