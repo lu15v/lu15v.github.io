@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer';
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
 import egg from './constants/egg';
-
+import DefaultPage from './components/default_page/defaultPage';
 library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft, faHeart, faGuitar, faMicrochip); 
 
 class App extends Component {
@@ -29,9 +29,10 @@ class App extends Component {
               <Header name="Luis Ballinas" major="Software Engineer" desc="Web developer and music lover located in Guadalajara " img="mex-icon-32.png" ></Header>
               <Navbar/>
               <Switch>
-                  <Route exact path='/' component={Main}></Route>
-                  <Route exact path='/project' component={Content}></Route>
-                  <Route  path='/project/:item' component={Detail}></Route>
+                  <Route exact path='/' component={Main}/>
+                  <Route exact path='/project' component={Content}/>
+                  <Route  path='/project/:item' component={Detail}/>
+                  <Route component={DefaultPage} />
               </Switch>
             </div>         
             <Footer/>
