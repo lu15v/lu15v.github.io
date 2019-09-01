@@ -10,7 +10,7 @@
     text-align: center;
 }
 .footer .copyright {
-    font-family: 'La Belle Aurore', cursive;
+    font-family: 'La Belle Aurore', cursive !important;
     line-height: 1.6;
     color: #555;
     font-size: 14px;

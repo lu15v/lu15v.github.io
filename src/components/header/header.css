@@ -1,3 +1,4 @@
+
 .header {
     padding: 60px;
     text-align: center;
@@ -16,6 +17,7 @@
   color: white;
   font-style: italic;
 }
+
 
  /* @media (min-width: 100px) and (max-width: 600px)  { 
     .header{
