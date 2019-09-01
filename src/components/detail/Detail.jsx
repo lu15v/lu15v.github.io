@@ -11,7 +11,7 @@ const  Detail = () =>{
 
   return (
     <PageContentContainer>
-      <div className="body">
+      <div className="body global-font">
           <Link to="/project"><p className="back"><FontAwesomeIcon icon={['fas', 'chevron-circle-left']} /> Back</p></Link>
           <main id="project-content">
             <div className="head">

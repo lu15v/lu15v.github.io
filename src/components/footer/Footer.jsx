@@ -6,7 +6,7 @@ const footer = () => {
   return (
     <footer className="footer">
         <div className="text-center">
-            <small className="copyright">
+            <small className="copyright global-font">
                 Designed with
                 &nbsp;
                 <i className="heart">

@@ -7,7 +7,7 @@ import {isMobile} from "react-device-detect";
 
 const header = (props) => {
       return (
-          <div className={isMobile ? "header-mobile" : "header" }>       
+          <div className={isMobile ? "header-mobile global-font" : "header global-font" }>       
               <NameEffect></NameEffect>
               <TypeWriterEffect>{props.major}</TypeWriterEffect>  
               <p>{props.desc} <img  alt="" src={require(`../../assets/icons/${props.img}`)}></img></p>    

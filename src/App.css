@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
-* {
+.global-font {
   font-family: 'Lexend Deca', sans-serif;
 }
 .App {

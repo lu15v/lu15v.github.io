@@ -6,7 +6,7 @@ const main = () => {
 
     return (
       <PageContentContainer>
-        <div className="cont">
+        <div className="cont global-font">
           <div className="header">
             <h3>About me</h3>
             <hr/>

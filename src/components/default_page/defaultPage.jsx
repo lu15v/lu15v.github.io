@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import './defaultPage.css';
 
 const defaultPage = () =>(
-    <div>
+    <div className="global-font">
         <h1>Great! You kill him</h1>
         <h3>But don't worry about it we'll fix it for you</h3>
         <Link to="/" className="linkStyle"><p>Home</p></Link>
