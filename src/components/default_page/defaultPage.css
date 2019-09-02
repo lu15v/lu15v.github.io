@@ -1,6 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+.default-page {
+    background-color: black;
+}
 .linkStyle {
-    color: grey;
+    color:#08f !important;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-decoration: none !important;
+    animation: text-neon 3s linear infinite;
+    padding: 1em;
+    font-size: 1.1em;
 }
+
+.default-page h1 {
+    color:#FF00E6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    animation: text-flicker 3s linear infinite;
+  }
+.default-page h3 {
+    color:#FF00E6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    animation: text-flicker 3s linear infinite;
+  }
+  
+  #offset {
+    animation: letter-flicker 2s linear infinite;
+  }
+
+div .default-page img{
+    width: 100%;
+    height: 100%;
+}
+
+  @keyframes text-neon {
+       
+    0% {
+    opacity:0.8;
+    text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    23% {
+        opacity:0.4;
+        text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    25% {
+        opacity:0.8;
+        text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    27% {
+        opacity:0.4;
+        text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    42% {
+        opacity:0.8;
+        text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    100% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+ 
+  }
+  
+  @keyframes text-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    8% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    12% {
+      opacity:0.1;
+      text-shadow: 0px 0px rgba(242, 22, 22, 1);
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    25% {
+      opacity:0.3;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    72% {
+      opacity:0.2;
+      text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+    100% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    }
+  }
+   
+  @keyframes letter-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    2% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    4% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    
+    19% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    21% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    23% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    
+    80% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    83% {
+      opacity:0.4;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+    87% {
+      opacity:1;
+      text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+  }
