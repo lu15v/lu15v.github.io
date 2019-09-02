@@ -7,7 +7,7 @@
 
 .text {
   position: absolute;
-  top: 5%;
+  top: 3%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   list-style: none;
@@ -99,6 +99,10 @@
   }
   .text.color li.spaced {
     padding-left: 0;
+  }
+
+  .text {
+    top: 5%;
   }
 }
 /*@media (min-width: 200px) and (max-width: 600px)  { 
