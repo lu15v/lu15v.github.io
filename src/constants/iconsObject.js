@@ -6,7 +6,7 @@ export const icons = {
     connect4: [LUA, VSC, LOVE],
     bbreaker: [CPLUS],
     restfb: [JAVA, GLASSFISH,NETBEANS],
-    wandw: [JS, VSC],
+    wandw: [JS, VSC, RUBY],
     fourClojure: [VSC, CLOJURE],
     designPatt: [RUBY, RAILS, VSC],
 }
