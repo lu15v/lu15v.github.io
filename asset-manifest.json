@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.6f0da587.chunk.css",
-  "main.js": "/static/js/main.28c55f6f.chunk.js",
-  "main.js.map": "/static/js/main.28c55f6f.chunk.js.map",
+  "main.js": "/static/js/main.f2baa362.chunk.js",
+  "main.js.map": "/static/js/main.f2baa362.chunk.js.map",
   "static/css/1.f7aebf02.chunk.css": "/static/css/1.f7aebf02.chunk.css",
   "static/js/1.6535d6e0.chunk.js": "/static/js/1.6535d6e0.chunk.js",
   "static/js/1.6535d6e0.chunk.js.map": "/static/js/1.6535d6e0.chunk.js.map",
@@ -17,7 +17,7 @@
   "static/media/netbeans.svg": "/static/media/netbeans.eae85007.svg",
   "static/media/react.svg": "/static/media/react.f0793d9f.svg",
   "static/media/vsc.svg": "/static/media/vsc.0d9c9f26.svg",
-  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/4Clojure.jpg": "/static/media/4Clojure.5d4b9e5c.jpg",
   "static/media/blockBreaker.jpg": "/static/media/blockBreaker.ddc1eca1.jpg",
   "static/media/burgerSeller.png": "/static/media/burgerSeller.9b9a097c.png",
@@ -31,6 +31,6 @@
   "static/css/main.6f0da587.chunk.css.map": "/static/css/main.6f0da587.chunk.css.map",
   "static/css/1.f7aebf02.chunk.css.map": "/static/css/1.f7aebf02.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b401760066a73749fde5cd8c20c21647.js": "/precache-manifest.b401760066a73749fde5cd8c20c21647.js",
+  "precache-manifest.920a84bced2f5ba6265dd0e9036e28b7.js": "/precache-manifest.920a84bced2f5ba6265dd0e9036e28b7.js",
   "service-worker.js": "/service-worker.js"
 }
