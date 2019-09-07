@@ -30,7 +30,7 @@ export const projectDetailInfo = {
     restfb :{
         name: 'Rest Facebook API',
         image: 'restFB.jpg',
-        description: '',
+        description: 'A Web Service using: RestFb 2.8.0, JDK 8 and Glassfish 4.1.2. Allowing interoperability with older versions of Glassfish and JDK. (Versions not compatible with TLSv2)',
         technologies: '',
         github: 'https://github.com/lu15v/Facebook-Web-Service'
     },
