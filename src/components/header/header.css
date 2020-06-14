@@ -5,6 +5,8 @@
     background: #002B33;
     color: white;
     font-style: italic;
+    flex-grow: 0;
+    flex-shrink: 1;
   }
 
 .header-mobile {
