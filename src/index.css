@@ -18,3 +18,8 @@ html,body{
 body + div{
   height: 100%;
 }
+div#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

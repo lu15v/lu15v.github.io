@@ -4,6 +4,7 @@ import './portItem.css';
 const PortItem = (props) =>{
     let colors = ['#ffffff ','#ffd700','#00d8ff','#00a1f1','#ffff00','#ffdf8b','#ffde57','#f5dc00','#ffc61e','#ffd430' ];
     const [selector, setSelector] = useState(0);
+    console.log(selector)
     return(
         <div className="item global-font" onMouseLeave={() => setSelector(0)} onMouseOver={() =>  setSelector(Math.floor(Math.random() * 10)+1)}>
             <img src={require(`../../assets/images/${props.img}`)} alt="" className="image" />
