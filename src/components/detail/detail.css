@@ -22,14 +22,12 @@ div .body{
 }
 
 main {
-    width: 50%;
-    min-width: 300px;
-    position: relative;
+    width: 70%;
     background-color: #fff;
     border: 1px solid #1a252f;
     border-radius: 4px;
     padding: 2em;
-    margin: 0 auto;
+    margin: 2em auto;
 }
 
 .body div.head{
