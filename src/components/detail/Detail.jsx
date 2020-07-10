@@ -11,7 +11,7 @@ import {icons} from '../../constants/iconsObject';
 const  Detail = () =>{
   const projName = window.location.pathname.replace('/project/','');
   const projObject = projectDetailInfo[projName];
-
+  
   return (
     <PageContentContainer>
       <div className="body global-font">

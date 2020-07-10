@@ -1,4 +1,11 @@
 export const projectDetailInfo = {
+    photoSite:{
+        name: 'Photography website',
+        image: 'photoSiteMain.png',
+        description: 'Website developed and designed with Sketch and React. The Application makes use of Material UI Design framework. It shows a gallery and allows you to see a preview of every image, the picture preview is inspired on the labels found next to the artworks.',
+        technologies: '',
+        github: 'https://github.com/lu15v/photo-site'
+    },
     burger:{
         name: 'Burger Price Estimator',
         image: 'burgerSeller.png',

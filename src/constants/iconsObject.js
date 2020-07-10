@@ -1,12 +1,13 @@
-import {JS, JAVA, REACT, LUA, CLOJURE, RUBY, VSC, CPLUS,RAILS, LOVE, GLASSFISH,NETBEANS} from './devIcons.js';
+import {JS, TS, JAVA, REACT, LUA, CLOJURE, RUBY, VSC, CPLUS,RAILS, LOVE, GLASSFISH,NETBEANS, UBUNTU, WINDOWS, APPLE} from './devIcons.js';
 
 export const icons = {
-    burger: [JS, REACT, VSC],
-    marsExp: [LUA, VSC, LOVE],
-    connect4: [LUA, VSC, LOVE],
-    bbreaker: [CPLUS],
-    restfb: [JAVA, GLASSFISH,NETBEANS],
-    wandw: [JS, VSC, RUBY],
-    fourClojure: [VSC, CLOJURE],
-    designPatt: [RUBY, RAILS, VSC],
+    photoSite: [REACT, TS, VSC, APPLE],
+    burger: [JS, REACT, VSC, UBUNTU],
+    marsExp: [LUA, VSC, LOVE, UBUNTU],
+    connect4: [LUA, VSC, LOVE, UBUNTU],
+    bbreaker: [CPLUS, UBUNTU],
+    restfb: [JAVA, GLASSFISH,NETBEANS, WINDOWS],
+    wandw: [JS, VSC, RUBY, UBUNTU],
+    fourClojure: [VSC, CLOJURE, UBUNTU],
+    designPatt: [RUBY, RAILS, VSC, UBUNTU],
 }
