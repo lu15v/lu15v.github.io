@@ -19,6 +19,7 @@ div .body{
     flex-direction: column;
     margin: 0 auto;
     padding: 0 0 5em 0;
+    width: 100%;
 }
 
 main {
@@ -86,6 +87,7 @@ main {
   #project-content div.head div.proj-name{
     width: 90%;
     text-align: left;
+    overflow-wrap: break-word;
   }
 
   #project-content div.head div.proj-repo{
