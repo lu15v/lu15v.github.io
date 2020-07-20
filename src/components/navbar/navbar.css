@@ -8,8 +8,11 @@
     flex-grow: 0;
     flex-shrink: 1;
   }
+.navbar-on-top{
+  opacity: 0.85;
+}
   
-  .navbar a.link{
+.navbar a.link{
     color: white;
     text-decoration: none;
     text-align: center;
@@ -20,7 +23,7 @@
     border-top: 1px solid;*/
   }
   
-  .navbar a.link:hover {
+.navbar a.link:hover {
     color:  #00d8ff;
     text-decoration: none;
     opacity: 1;
