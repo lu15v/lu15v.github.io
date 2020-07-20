@@ -12,9 +12,8 @@ const main = () => {
             <hr/>
           </div>
           <main>
-            <p>I'm a full-stack developer more focused on front-end development with 3+ years of experience.</p>
-            
-            <p>During all this time I've been working for international companies and clients, using such a great variety of state of the art technologies such as 
+            <p>I'm a full-stack developer specialized on front-end development with 3+ years of experience.
+                During all this time I've been working for international companies and clients, using such a great variety of state of the art technologies such as 
                React, Spring, Rails, Nodejs, Firebase. being React my main area of expertise.</p>
             
             <p>I love to: contribute, learn, teach and in general be very engaged 
