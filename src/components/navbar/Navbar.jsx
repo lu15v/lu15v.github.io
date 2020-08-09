@@ -5,8 +5,8 @@ import './navbar.css';
 const navbar = () =>{
   const [isOnTop, setIsOnTop] = useState(false);
   let initialPosition;
+  
   useEffect(() =>{
-    console.log(window)
     window.addEventListener('scroll', onScroll, true);
     initialPosition = myRef.current.offsetTop;
   },[])

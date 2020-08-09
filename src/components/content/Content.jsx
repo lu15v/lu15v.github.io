@@ -8,6 +8,7 @@ import PageContentContainer from '../pageContentContainer/pageContentContainer';
     return (
         <PageContentContainer>
             <div className="wrapper">
+                <Link to="/project/theRosa"><PortItem img="theRosa.png">The Rosa</PortItem></Link>
                 <Link to="/project/photoSite"><PortItem img="photoSite.png">Photograph website </PortItem></Link>
                 <Link to="/project/burger"><PortItem img="burgerSeller.png" path="burger">Burger Price Estimator</PortItem></Link>
                 <Link to="/project/marsExp"><PortItem img="marsExplorer.jpg" path="marsExp">Mars Explorer</PortItem></Link>

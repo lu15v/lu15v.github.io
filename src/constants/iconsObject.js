@@ -1,6 +1,7 @@
-import {JS, TS, JAVA, REACT, LUA, CLOJURE, RUBY, VSC, CPLUS,RAILS, LOVE, GLASSFISH,NETBEANS, UBUNTU, WINDOWS, APPLE} from './devIcons.js';
+import {JS, TS, JAVA, REACT, LUA, CLOJURE, RUBY, VSC, CPLUS,RAILS, LOVE, GLASSFISH,NETBEANS, UBUNTU, WINDOWS, APPLE, HTML5, CSS3} from './devIcons.js';
 
 export const icons = {
+    theRosa: [JS, HTML5, CSS3, VSC, APPLE],
     photoSite: [REACT, TS, VSC, APPLE],
     burger: [JS, REACT, VSC, UBUNTU],
     marsExp: [LUA, VSC, LOVE, UBUNTU],

@@ -1,4 +1,11 @@
 export const projectDetailInfo = {
+    theRosa:{
+        name: 'The Rosa',
+        image: 'theRosa.png',
+        description: 'Restaurant website based. The site was developed using: HTML5, CSS3 & JS (for some animations) with the "Mobile first" design strategy. The project excels the animations and smooth transitions while the user gets more into it.',
+        technologies: '',
+        github: 'https://github.com/lu15v/The-Rosa-Restaurant'
+    },
     photoSite:{
         name: 'Photography website',
         image: 'photoSiteMain.png',
