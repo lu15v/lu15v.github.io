@@ -72,24 +72,41 @@ main {
     border-bottom: 1px solid #BDBDBD;
 }
 
-@media (min-width: 100px) and (max-width: 800px)  { 
-    .body div.information div.proj-image img{
-        max-height: 70px;
-    }
-}
-
 .devicon-git-plain {
     width: 2em;
     height: 2em;
   }
 
 
-  #project-content div.head div.proj-name{
+#project-content div.head div.proj-name{
     width: 90%;
     text-align: left;
     overflow-wrap: break-word;
-  }
+}
 
-  #project-content div.head div.proj-repo{
+#project-content div.head div.proj-repo{
     cursor: pointer;
-  }
+}
+
+.demo-button{
+    display: block !important;
+    left: calc(50% - 1rem);
+    color: #be1c2a;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.body div.information div.proj-image img{
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 900px)  { 
+    .body div.information div.proj-image img{
+        float: initial;
+    }
+    .demo-button{
+        font-size: 1.7rem;
+        margin: -1.5rem .5rem auto;
+    }
+}
