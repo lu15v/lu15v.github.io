@@ -38,11 +38,11 @@ const  Detail = () =>{
                 <img  alt="" src={require(`../../assets/images/${projObject.image}`)}></img>
               </div>
             </div>
-            {/*<div>
-              <a className="demo-button" href="#" title="Live demo">
+            <div>
+              <a className={projObject.demo !== '' ? "demo-button" : "demo-button-disabled"} href={projObject.demo} title={projObject.demo !== '' ?  "Live demo" : "Not demo available"}>
                 <FontAwesomeIcon  icon={['fas', 'play']} />
               </a>
-            </div>*/}
+            </div>
             <div className="desc">
               {projObject.description}
             </div>
