@@ -20,6 +20,13 @@ export const projectDetailInfo = {
         technologies: '',
         github: 'https://github.com/lu15v/Burger'
     },
+    setsStore:{
+        name: 'Sets Store',
+        image: 'setsStore.png',
+        description: 'Sets store, developed in React usign "React-bootstrap". The site shows to the user a slider showing the new arrivals, and all the sets available showing in detail the: price, name, description, and artist. Also the website has implemented a cart and a login page (full implementation still pending) ',
+        technologies: '',
+        github: 'https://github.com/lu15v/sets-store'
+    },
     marsExp :{
         name: 'Mars Explorer',
         image: "marsExplorer.jpg",

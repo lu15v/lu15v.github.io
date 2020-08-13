@@ -11,6 +11,7 @@ import PageContentContainer from '../pageContentContainer/pageContentContainer';
                 <Link to="/project/theRosa"><PortItem img="theRosa.png">The Rosa</PortItem></Link>
                 <Link to="/project/photoSite"><PortItem img="photoSite.png">Photograph website </PortItem></Link>
                 <Link to="/project/burger"><PortItem img="burgerSeller.png" path="burger">Burger Price Estimator</PortItem></Link>
+                <Link to="/project/setsStore"><PortItem img="setsStore.png">Sets Store</PortItem></Link>
                 <Link to="/project/marsExp"><PortItem img="marsExplorer.jpg" path="marsExp">Mars Explorer</PortItem></Link>
                 <Link to="/project/connect4"><PortItem img="connect4.jpg">Connect 4</PortItem></Link>
                 <Link to="/project/bbreaker"><PortItem img="blockBreaker.jpg">Brick Breaker Game</PortItem></Link>
