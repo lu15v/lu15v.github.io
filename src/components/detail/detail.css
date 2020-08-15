@@ -120,3 +120,24 @@ main {
         margin: -1.5rem .5rem auto;
     }
 }
+
+@media (max-width: 900px)  { 
+    .body div.information{
+        flex-direction: column;
+    }
+    .body div.information div.proj-tech{
+        width: 100%;
+        margin-right: 0;
+        order: 1;
+    }
+    .body div.information div.proj-image{
+        width: auto;
+        order: 0;
+        align-self: center;
+        margin: 0 0 2rem 0;
+    }
+    .demo-button{
+        font-size: 1.2rem;
+        margin: -1rem 0 1rem 0;
+    }
+}

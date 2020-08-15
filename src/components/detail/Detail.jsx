@@ -38,7 +38,7 @@ const  Detail = () =>{
                 <img  alt="" src={require(`../../assets/images/${projObject.image}`)}></img>
               </div>
             </div>
-            <div>
+            <div className="demo-button">
               <a className={projObject.demo !== '' ? "demo-button" : "demo-button-disabled"} href={projObject.demo} title={projObject.demo !== '' ?  "Live demo" : "Not demo available"}>
                 <FontAwesomeIcon  icon={['fas', 'play']} />
               </a>
