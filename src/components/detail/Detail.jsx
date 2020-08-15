@@ -39,7 +39,7 @@ const  Detail = () =>{
               </div>
             </div>
             <div className="demo-button">
-              <a className={projObject.demo !== '' ? "demo-button" : "demo-button-disabled"} href={projObject.demo} title={projObject.demo !== '' ?  "Live demo" : "Not demo available"}>
+              <a target="_blank"  rel="noopener noreferrer" className={projObject.demo !== '' ? "demo-button" : "demo-button-disabled"} href={projObject.demo} title={projObject.demo !== '' ?  "Live demo" : "Not demo available"}>
                 <FontAwesomeIcon  icon={['fas', 'play']} />
               </a>
             </div>
