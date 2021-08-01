@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2c82336fdc976c9cda10",
-    "url": "/static/css/main.a75c7b53.chunk.css"
+    "revision": "cc88fd43fdca68d95fdb",
+    "url": "/static/css/main.6aeab718.chunk.css"
   },
   {
-    "revision": "2c82336fdc976c9cda10",
-    "url": "/static/js/main.2c82336f.chunk.js"
+    "revision": "cc88fd43fdca68d95fdb",
+    "url": "/static/js/main.cc88fd43.chunk.js"
   },
   {
-    "revision": "53653eb62a6a176e91ec",
-    "url": "/static/css/1.2dd9389d.chunk.css"
+    "revision": "9c10a3babbe37b8872ce",
+    "url": "/static/css/1.06ad83c1.chunk.css"
   },
   {
-    "revision": "53653eb62a6a176e91ec",
-    "url": "/static/js/1.53653eb6.chunk.js"
+    "revision": "9c10a3babbe37b8872ce",
+    "url": "/static/js/1.9c10a3ba.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/static/media/html5.676e8188.svg"
   },
   {
-    "revision": "85eef25ac78affaf0c19dfbc3dc30da5",
-    "url": "/static/media/love.85eef25a.svg"
+    "revision": "bdd4a3a8e795eb86bc4f64aef8e147ea",
+    "url": "/static/media/love.bdd4a3a8.svg"
   },
   {
     "revision": "ca1ac79d2c5eabc6a1edd7f67923f6a9",
     "url": "/static/media/lua.ca1ac79d.svg"
   },
   {
-    "revision": "eae85007027386fb97bafc3266d9341a",
-    "url": "/static/media/netbeans.eae85007.svg"
+    "revision": "668e28d1f4f07b406681f0a079bade93",
+    "url": "/static/media/netbeans.668e28d1.svg"
   },
   {
     "revision": "f0793d9f85eb3f0d1c702c14d236ba9e",
@@ -120,8 +120,8 @@ self.__precacheManifest = [
     "url": "/static/media/designPatt.e99986ff.jpg"
   },
   {
-    "revision": "f8956e79ca73b8fac8012999cf633151",
-    "url": "/static/media/error.f8956e79.svg"
+    "revision": "f5093d0b712889e3cca62e18c6424144",
+    "url": "/static/media/error.f5093d0b.svg"
   },
   {
     "revision": "5f4a4db05ce7cce86b2734b25be152b5",
@@ -144,6 +144,10 @@ self.__precacheManifest = [
     "url": "/static/media/restFB.17c7d76e.jpg"
   },
   {
+    "revision": "cefe82d72fdeaf0a428d4a61010812c2",
+    "url": "/static/media/setsStore.cefe82d7.png"
+  },
+  {
     "revision": "9f60eb4fdb9a29e771eaf444e5412387",
     "url": "/static/media/theRosa.9f60eb4f.png"
   },
@@ -160,11 +164,11 @@ self.__precacheManifest = [
     "url": "/static/media/glassfish 2.a8a8d2b3.svg"
   },
   {
-    "revision": "85eef25ac78affaf0c19dfbc3dc30da5",
-    "url": "/static/media/love 2.85eef25a.svg"
+    "revision": "bdd4a3a8e795eb86bc4f64aef8e147ea",
+    "url": "/static/media/love 2.bdd4a3a8.svg"
   },
   {
-    "revision": "d1ec5b4a36c16d641cffc75e3522cefc",
+    "revision": "c741dfa95e6ff49f91b6e3ca19f30ca1",
     "url": "/index.html"
   }
 ];
