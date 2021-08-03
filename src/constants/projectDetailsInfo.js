@@ -1,4 +1,28 @@
 export const projectDetailInfo = {
+    webtry:{
+        name: 'Webtry',
+        image: 'webtry.png',
+        description: 'A blog/poems/lyrics website (with most of the content written in Spanish) It shows up the passion I have for write and create content that states my feelings. The site was developed using: React, GraphQL, Apollo, CSS3. ',
+        technologies: '',
+        github: 'https://github.com/lu15v/Webtry',
+        demo: ''
+    },
+    socialMedia:{
+        name: 'Social Media App',
+        image: 'socialMedia.png',
+        description: 'Basic social media app functionality. The site was developed using: React, GraphQL, Apollo GraphQL & Semantic-UI. It was developed in order to learn and practice: GraphQL and Semantic-UI. Therefore, it shows the basics and some advanced concepts of both',
+        technologies: '',
+        github: 'https://github.com/lu15v/Social-Media-Front-End',
+        demo: ''
+    },
+    CRM:{
+        name: 'CRM',
+        image: 'crmClients.png',
+        description: 'CRM developed with: React, GraphQL, Apollo, Next & Formik. A challenging project using state of the art technologies. The main purpose of this project was to: learn, practice and get introduced to these techs',
+        technologies: '',
+        github: 'https://github.com/lu15v/CRM-Clients/',
+        demo: ''
+    },
     theRosa:{
         name: 'The Rosa',
         image: 'theRosa.png',

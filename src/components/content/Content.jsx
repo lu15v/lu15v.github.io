@@ -8,6 +8,9 @@ import PageContentContainer from '../pageContentContainer/pageContentContainer';
     return (
         <PageContentContainer>
             <div className="wrapper">
+                <Link to="/project/webtry"><PortItem img="webtry.png">Webtry</PortItem></Link>
+                <Link to="/project/CRM"><PortItem img="crmClients.png">CRM</PortItem></Link>
+                <Link to="/project/socialMedia"><PortItem img="socialMedia.png">Social Media app</PortItem></Link>
                 <Link to="/project/theRosa"><PortItem img="theRosa.png">The Rosa</PortItem></Link>
                 <Link to="/project/photoSite"><PortItem img="photoSite.png">Photograph website </PortItem></Link>
                 <Link to="/project/burger"><PortItem img="burgerSeller.png" path="burger">Burger Price Estimator</PortItem></Link>
