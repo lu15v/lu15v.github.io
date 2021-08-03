@@ -4,6 +4,7 @@ import './content.css';
 import PortItem from '../port_item/PortItem';
 import {Link} from 'react-router-dom';
 import PageContentContainer from '../pageContentContainer/pageContentContainer';
+
  const content = () => {
     return (
         <PageContentContainer>

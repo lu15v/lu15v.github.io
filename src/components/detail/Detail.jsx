@@ -16,38 +16,38 @@ const  Detail = () =>{
   return (
     projObject !== undefined ?
       <PageContentContainer>
-      <div className="body global-font">
-          <Link to="/project"><p className="back"><FontAwesomeIcon icon={['fas', 'chevron-circle-left']} /> Back</p></Link>
-          <main id="project-content">
-            <div className="head">
-              <div className="proj-name">
-                <h2>{projObject.name}</h2>         
+        <div className="body global-font">
+            <Link to="/project"><p className="back"><FontAwesomeIcon icon={['fas', 'chevron-circle-left']} /> Back</p></Link>
+            <main id="project-content">
+              <div className="head">
+                <div className="proj-name">
+                  <h2>{projObject.name}</h2>         
+                </div>
+                <div className="proj-repo">
+                  <a href={projObject.github} title="Git Repository" target="_blank" rel="noopener noreferrer">
+                    {GIT}
+                  </a>
+                </div>
               </div>
-              <div className="proj-repo">
-                <a href={projObject.github} title="Git Repository" target="_blank" rel="noopener noreferrer">
-                  {GIT}
+              <div className="information">
+                <div className="proj-tech">
+                    <h5>Tech</h5>
+                    <TechModule icons={icons[projName]}></TechModule>
+                </div>
+                <div className="proj-image">
+                  <img  alt="" src={require(`../../assets/images/${projObject.image}`)}></img>
+                </div>
+              </div>
+              <div className="demo-button">
+                <a target="_blank"  rel="noopener noreferrer" className={projObject.demo !== '' ? "demo-button" : "demo-button-disabled"} href={projObject.demo} title={projObject.demo !== '' ?  "Live demo" : "Not demo available"}>
+                  <FontAwesomeIcon  icon={['fas', 'play']} />
                 </a>
               </div>
-            </div>
-            <div className="information">
-              <div className="proj-tech">
-                  <h5>Tech</h5>
-                  <TechModule icons={icons[projName]}></TechModule>
+              <div className="desc">
+                {projObject.description}
               </div>
-              <div className="proj-image">
-                <img  alt="" src={require(`../../assets/images/${projObject.image}`)}></img>
-              </div>
-            </div>
-            <div className="demo-button">
-              <a target="_blank"  rel="noopener noreferrer" className={projObject.demo !== '' ? "demo-button" : "demo-button-disabled"} href={projObject.demo} title={projObject.demo !== '' ?  "Live demo" : "Not demo available"}>
-                <FontAwesomeIcon  icon={['fas', 'play']} />
-              </a>
-            </div>
-            <div className="desc">
-              {projObject.description}
-            </div>
-          </main>
-      </div>
+            </main>
+        </div>
     </PageContentContainer> :
     <DefaultPage/>
   )

@@ -10,6 +10,10 @@ import Detail from './components/detail/Detail';
 import Main from './components/main/Main';
 import egg from './constants/egg';
 import DefaultPage from './components/default_page/defaultPage';
+import Header from './components/header/Header';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+
 library.add(faFacebook,faGithub,faLinkedin,faEnvelope, faChevronCircleLeft, faHeart, faGuitar, faPlay, faChevronUp); 
 
 class App extends Component {
@@ -21,14 +25,17 @@ class App extends Component {
   render() {
     return (
       <Router>
-          <div className="App">
-            <Switch>
-                <Route exact path='/' component={Main}/>
-                <Route exact path='/project' component={Content}/>
-                <Route  path='/project/:item' component={Detail}/>
-                <Route component={DefaultPage} />
-            </Switch>
-          </div>         
+        <div className="App">
+          <Header name="Luis Ballinas" major="Software Engineer" desc="Web developer and music lover from México " img="mex-icon-32.png" ></Header>
+          <Navbar/>
+          <Switch>
+              <Route exact path='/' component={Main}/>
+              <Route exact path='/project' component={Content}/>
+              <Route  path='/project/:item' component={Detail}/>
+              <Route component={DefaultPage} />
+          </Switch>
+          <Footer/>
+        </div>         
       </Router>
     );
   } 
