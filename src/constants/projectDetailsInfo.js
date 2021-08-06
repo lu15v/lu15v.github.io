@@ -5,7 +5,7 @@ export const projectDetailInfo = {
         description: 'A blog/poems/lyrics website (with most of the content written in Spanish) It shows up the passion I have for write and create content that states my feelings. The site was developed using: React, GraphQL, Apollo, CSS3. ',
         technologies: '',
         github: 'https://github.com/lu15v/Webtry',
-        demo: ''
+        demo: 'https://webtry-ten.vercel.app/'
     },
     socialMedia:{
         name: 'Social Media App',
