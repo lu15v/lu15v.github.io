@@ -1,7 +1,7 @@
 import React from 'react';
 import './defaultPage.css';
 
-const defaultPage = () =>(
+const DefaultPage = () =>(
     <div className="flex-container">
         <div className="column white-column">
         </div>
@@ -43,4 +43,4 @@ const defaultPage = () =>(
 )
 
 
-export default defaultPage;
+export default DefaultPage;

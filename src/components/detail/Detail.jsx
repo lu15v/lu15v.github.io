@@ -3,7 +3,6 @@ import  './detail.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {Link, withRouter} from 'react-router-dom';
 import {projectDetailInfo} from '../../constants/projectDetailsInfo'
-import PageContentContainer from '../pageContentContainer/pageContentContainer';
 import DefaultPage from '../default_page/defaultPage';
 import TechModule from '../techModule/techModule';
 import {GIT} from '../../constants/devIcons';
@@ -15,7 +14,6 @@ const  Detail = () =>{
 
   return (
     projObject !== undefined ?
-      <PageContentContainer>
         <div className="body global-font">
             <Link to="/project"><p className="back"><FontAwesomeIcon icon={['fas', 'chevron-circle-left']} /> Back</p></Link>
             <main id="project-content">
@@ -47,8 +45,7 @@ const  Detail = () =>{
                 {projObject.description}
               </div>
             </main>
-        </div>
-    </PageContentContainer> :
+        </div>:
     <DefaultPage/>
   )
 }
