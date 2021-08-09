@@ -73,5 +73,23 @@
   background-color: #1e1f61
 }
 .light-grey-column{
-  background-colo: #e8e9e8;
+  background-color: #e8e9e8;
+}
+
+.messageContainer{
+  background-color: rgba(1, 1, 1, .4);
+  color: #fff;
+  position: absolute;
+  height: 170px;
+  width: 260px;
+  top: calc(55% - 85px);
+  left: calc(50% - 130px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.messageContainer h1{
+  font-size: 100px;
 }
