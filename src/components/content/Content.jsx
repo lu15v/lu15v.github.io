@@ -9,11 +9,14 @@ import {Link} from 'react-router-dom';
         <div className="wrapper">
             <Link to="/project/webtry"><PortItem img="webtry.png">Webtry</PortItem></Link>
             <Link to="/project/CRM"><PortItem img="crmClients.png">CRM</PortItem></Link>
-            <Link to="/project/socialMedia"><PortItem img="socialMedia.png">Social Media app</PortItem></Link>
+            <Link to="/project/socialMedia"><PortItem img="socialMedia.png">Social Media Site</PortItem></Link>
+            <Link to="/project/webtry_back_end"><PortItem img="webtry.png">Webtry (Back End)</PortItem></Link>
+            <Link to="/project/CRM_back_end"><PortItem img="crmClients.png">CRM (Back End)</PortItem></Link>
+            <Link to="/project/socialMedia_back_end"><PortItem img="socialMedia.png">Social Media (Back End)</PortItem></Link>
             <Link to="/project/theRosa"><PortItem img="theRosa.png">The Rosa</PortItem></Link>
             <Link to="/project/photoSite"><PortItem img="photoSite.png">Photograph website </PortItem></Link>
-            <Link to="/project/burger"><PortItem img="burgerSeller.png" path="burger">Burger Price Estimator</PortItem></Link>
             <Link to="/project/setsStore"><PortItem img="setsStore.png">Sets Store</PortItem></Link>
+            <Link to="/project/burger"><PortItem img="burgerSeller.png" path="burger">Burger Price Estimator</PortItem></Link>
             <Link to="/project/wandw"><PortItem img="wandW.png">Text Adventure Game</PortItem></Link>
             <Link to="/project/restfb"><PortItem img="restFB.jpg">Facebook WS</PortItem></Link>
             <Link to="/project/marsExp"><PortItem img="marsExplorer.jpg" path="marsExp">Mars Explorer</PortItem></Link>
